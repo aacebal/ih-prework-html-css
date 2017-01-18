@@ -1,0 +1,54 @@
+body{
+	background: rgb(244, 248, 249);
+	font-size: 28px;
+	font-family: Helvetica;
+}
+.tweet{
+	padding: 25px;
+	background: rgb(255, 255, 255);
+	border: 3px solid rgb(225, 232, 237);
+	border-radius: 8px;
+}
+.profile-picture{
+	float: left;
+	padding-right: 20px;
+}
+.user-name{
+	color: rgb(0, 0, 0);
+	font-size: 34px;
+	font-weight: bold;
+	line-height: 0px;
+}
+.handle{
+	line-height: 0px;
+	color: rgb(104, 109, 129);
+}
+.text{
+	padding-top: 20px;
+}
+.date{
+	color: rgb(101, 116, 127);
+}
+.reply{
+	float:left;
+	padding-right: 40px;
+}
+.retweet{
+	float:left;
+	padding-right: 40px;
+	color: rgb(101, 116, 127);
+}
+.favorite{
+	color: rgb(101, 116, 127);
+}
+.follow{
+	float: right;
+	position:absolute;
+	padding:10px;
+	font-weight: bold;
+	top: 50px;
+	right: 50px;
+	color: rgb(85, 172, 238);
+	border: 3px solid rgb(85, 172, 238);
+	border-radius: 8px;
+}
